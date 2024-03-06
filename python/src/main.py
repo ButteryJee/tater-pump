@@ -8,7 +8,7 @@ BAUD_RATE = 9600
 
 if __name__ == "__main__":
 
-    # Attemp to connect to arduino device
+    # Attempt to connect to arduino device
     try:
         connection = serial.Serial(port=COM_PORT, baudrate=BAUD_RATE, timeout=.1)
     except serial.SerialException:
