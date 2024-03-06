@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2024-03-06T02:45:00.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6kilqMXdyNor9g7KULUH" version="23.1.5" type="device">
+  <diagram name="Page-1" id="J40XdzKUs1wxToZGUI99">
+    <mxGraphModel dx="1103" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-1" value="Development PC" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="kToYpKR2WRyGyrFNzoyB-2" target="kToYpKR2WRyGyrFNzoyB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-2" value="Serial" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-4" value="Arduino: Mega 2560" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-5" value="Serial: USB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-8" value="SHT31: Temp Humidity Sensor&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-9" value="I2C: 0x45" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="kToYpKR2WRyGyrFNzoyB-10" target="kToYpKR2WRyGyrFNzoyB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kToYpKR2WRyGyrFNzoyB-10" value="I2C1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="70" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
